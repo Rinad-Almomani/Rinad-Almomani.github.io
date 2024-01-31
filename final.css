@@ -1,0 +1,125 @@
+body {
+    background-image: url('background.jpeg');
+
+    margin: 0;
+    font-family: 'Arial' sans-serif;
+      /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+    background-color: hwb(0 63% 19%);
+    color:white;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.gh{
+    justify-content: space-between;  
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: rowS;
+}
+.logo img {
+    height: 120px;
+    width: 120;
+    
+    }
+    h1{
+    color: black;
+    flex-direction: row;
+    justify-content: start;
+    }
+    
+    
+    h7{
+      background-color:beige ;
+      color:limegreen;
+      justify-content: center;
+      
+    }
+
+.header-content {
+    display: flex;
+    align-items: end;
+    color: black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.pc {
+    display: flex;
+    text-align:justify;
+}
+.pc p {
+    flex: 1;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.re {
+    display: flex;
+    align-items: start; 
+    justify-content: start;
+}
+.re p {
+    text-align: justify;
+}
+/*.re p{
+    color: #555;
+    line-height: 1.6;
+    font-size: 20px;
+
+}*/
+
+.re  img {
+    width: 600px;
+    height:200px; 
+    margin-left: 50px;
+
+}
