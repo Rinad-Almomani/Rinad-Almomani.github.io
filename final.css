@@ -1,10 +1,10 @@
 body {
-    background-image: url('background.jpeg');
+    /*background-image: url('background.jpeg');*/
 
     margin: 0;
     font-family: 'Arial' sans-serif;
       /* Full height */
-  height: 100%;
+  
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: hwb(0 63% 19%);
+    background-color:lightblue;
     color:white;
     padding: 10px;
     display: flex;
@@ -21,38 +21,70 @@ header {
     align-items: center;
 }
 
+.ee img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+}
+
+.discount-sentence{
+    display: flex;
+        font-size: xxx-large;
+        font-weight: bold;
+        margin-top: -.5%;
+        justify-content: center;
+        align-items: center;
+        color:red;
+        background-color: rgb(181, 233, 248);
+}
+
 .gh{
-    justify-content: space-between;  
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.bb{
+    flex-direction: row;
+
+
 }
 
 .logo{
     display: flex;
     justify-content: start;
-    align-items: start;
-    flex-direction: rowS;
+    align-items: center;
+    flex-direction: row;
 }
 .logo img {
     height: 120px;
     width: 120;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
     
     }
     h1{
     color: black;
     flex-direction: row;
     justify-content: start;
+    align-items: end;
     }
     
-    
-    h7{
-      background-color:beige ;
-      color:limegreen;
-      justify-content: center;
-      
+    h2{
+        font-size: xx-large;
+        font-weight: bold;
+        font-style: italic!important;
+        text-align: center!important;
+        color: red;
+
     }
+    
+
+   
 
 .header-content {
     display: flex;
-    align-items: end;
+    align-items:end;
     color: black;
     flex-direction: row;
     justify-content: space-between;
@@ -82,15 +114,8 @@ section {
     padding: 40px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
+
 
 
 .pc {
@@ -102,13 +127,27 @@ footer {
     margin-right: 20px; /* Adjust the margin as needed */
 }
 
-.re {
+.ro {
     display: flex;
+    flex-direction: row;
     align-items: start; 
     justify-content: start;
 }
+
+.re{
+    width: 50%;
+    height: 50%; /* Adjust the width of the box as needed */
+    margin: 50px auto; /* Center the box and provide top margin */
+    padding: 20px;
+   
+}
+    
+        
+    
+    
 .re p {
     text-align: justify;
+    margin: 0;  
 }
 /*.re p{
     color: #555;
@@ -123,3 +162,72 @@ footer {
     margin-left: 50px;
 
 }
+h3{font-size: xx-large;
+    font-weight: bold;
+     
+}
+
+.classes{
+    display: flex;
+    flex-direction: column;   
+}
+
+.class1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+
+.yu{
+    display: flex;
+    flex-direction: column;  
+    Font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+}
+.classes P{
+    Font-size: x-large;
+    
+}
+.coaches{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.coaches P{
+    Font-size: large;}
+
+.coaches1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.coaches1 p{
+    Font-size: x-large;
+    font-weight: bold; 
+}
+
+.membership{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 174, 174);}
+
+    .contact{
+       
+        background-color: rgb(131, 126, 126);}
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
